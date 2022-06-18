@@ -1,0 +1,7 @@
+dendtyKey: 1234567890
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/testdb?statementInterceptors=com.yanci.intercepter.CustomerMaskResultSetScannerInterceptor
